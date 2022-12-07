@@ -15,7 +15,7 @@ This repository is used to understand and work with the MoveIt PlanningScene. To
 7. [Mesh Shape](#mesh-shape)
 8. [Multiple Shapes](#multiple-shapes)
 
-## [Scene File][scene-file]
+## Scene File
 
 - in a scene file are multiple **objects**, each having its own name, pose and shapes
 - a shape is some kind of primitive (box, cone, cylinder, sphere, mesh)
@@ -42,7 +42,7 @@ example:
 .
 ```
 
-## [Box Shape][box-shape]
+## Box Shape
 
 ```
 * <BOX_OBJECT_ID>
@@ -75,7 +75,7 @@ box
 0
 ```
 
-## [Cone Shape][cone-shape]
+## Cone Shape
 
 ```txt
 * <CONE_OBJECT_ID>
@@ -108,7 +108,7 @@ cone
 0
 ```
 
-## [Cylinder Shape][cylinder-shape]
+## Cylinder Shape
 
 ```
 * <CYLINDER_OBJECT_ID>
@@ -141,7 +141,7 @@ cylinder
 0
 ```
 
-## [Sphere Shape][sphere-shape]
+## Sphere Shape
 
 ```
 * <SPHERE_OBJECT_ID>
@@ -174,7 +174,7 @@ sphere
 0
 ```
 
-## [Plane Shape][plane-shape]
+## Plane Shape
 
 ```
 * <PLANE_OBJECT_ID>
@@ -208,7 +208,7 @@ plane
 ```
 
 
-## [Mesh Shape][mesh-shape]
+## Mesh Shape
 
 ```
 * <MESH_OBJECT_ID>
@@ -282,7 +282,7 @@ example:
 ```
 
 
-## [Multiple Shapes][multiple-shapes]
+## Multiple Shapes
 
 - when an object has multiple shapes inside of it, it looks like this:
 
