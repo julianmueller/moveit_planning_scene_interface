@@ -6,16 +6,16 @@ This repository is used to understand and work with the MoveIt PlanningScene. To
 
 ## Table of Contents
 
-1. [[#scene-file]]
-2. [[#box-shape]]
-3. [[#cone-shape]]
-4. [[#cylinder-shape]]
-5. [[#sphere-shape]]
-6. [[#plane-shape]]
-7. [[#mesh-shape]]
-8. [[#multiple-shapes]]
+1. [Scene File](#scene-file)
+2. [Box Shape](#box-shape)
+3. [Cone Shape](#cone-shape)
+4. [Cylinder Shape](#cylinder-shape)
+5. [Sphere Shape](#sphere-shape)
+6. [Plane Shape](#plane-shape)
+7. [Mesh Shape](#mesh-shape)
+8. [Multiple Shapes](#multiple-shapes)
 
-## Scene File
+## [Scene File][scene-file]
 
 - in a scene file are multiple **objects**, each having its own name, pose and shapes
 - a shape is some kind of primitive (box, cone, cylinder, sphere, mesh)
@@ -42,7 +42,7 @@ example:
 .
 ```
 
-## Box shape
+## [Box Shape][box-shape]
 
 ```
 * <BOX_OBJECT_ID>
@@ -75,7 +75,7 @@ box
 0
 ```
 
-## Cone shape
+## [Cone Shape][cone-shape]
 
 ```txt
 * <CONE_OBJECT_ID>
@@ -108,7 +108,7 @@ cone
 0
 ```
 
-## Cylinder shape
+## [Cylinder Shape][cylinder-shape]
 
 ```
 * <CYLINDER_OBJECT_ID>
@@ -141,7 +141,7 @@ cylinder
 0
 ```
 
-## Sphere shape
+## [Sphere Shape][sphere-shape]
 
 ```
 * <SPHERE_OBJECT_ID>
@@ -174,7 +174,7 @@ sphere
 0
 ```
 
-## Plane shape
+## [Plane Shape][plane-shape]
 
 ```
 * <PLANE_OBJECT_ID>
@@ -208,7 +208,7 @@ plane
 ```
 
 
-## Mesh shape
+## [Mesh Shape][mesh-shape]
 
 ```
 * <MESH_OBJECT_ID>
@@ -282,7 +282,7 @@ example:
 ```
 
 
-## Multiple shapes
+## [Multiple Shapes][multiple-shapes]
 
 - when an object has multiple shapes inside of it, it looks like this:
 
