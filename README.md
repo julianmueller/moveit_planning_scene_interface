@@ -4,10 +4,18 @@ This repository is used to understand and work with the MoveIt PlanningScene. To
 - https://github.com/ros-planning/moveit/blob/master/moveit_core/planning_scene/src/planning_scene.cpp#L962
 - https://github.com/ros-planning/geometric_shapes/blob/noetic-devel/src/shape_operations.cpp#L428
 
-[[_TOC_]]
+## Table of Contents
 
+1. [[#scene-file]]
+2. [[#box-shape]]
+3. [[#cone-shape]]
+4. [[#cylinder-shape]]
+5. [[#sphere-shape]]
+6. [[#plane-shape]]
+7. [[#mesh-shape]]
+8. [[#multiple-shapes]]
 
-## Scane File
+## Scene File
 
 - in a scene file are multiple **objects**, each having its own name, pose and shapes
 - a shape is some kind of primitive (box, cone, cylinder, sphere, mesh)
